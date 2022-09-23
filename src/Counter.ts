@@ -1,14 +1,14 @@
 
 const Counter = (initialValue:number=0)=>{
     
-    let counter=initialValue;
+    //let counter=initialValue;
 
     function getCounterValue(){
-        return counter; 
+        return initialValue; 
     }
 
     function increment(){
-        counter += 1;  
+        initialValue += 1;  
     }
 
     return [getCounterValue, increment];

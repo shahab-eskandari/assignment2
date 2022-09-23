@@ -16,6 +16,12 @@ function App() {
   nextA();
   console.log(getA());
   console.log(getB());
+
+  //checking the default initialization
+  const [getC, nextC] = Counter();
+  console.log(getC());
+  nextC();
+  console.log(getC())
   
   return (
     <div>
