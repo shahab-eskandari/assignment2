@@ -1,5 +1,5 @@
 
-const Counter = (initialValue:number=0)=>{
+const counter = (initialValue:number=0)=>{
     
     //let counter=initialValue;
 
@@ -14,4 +14,4 @@ const Counter = (initialValue:number=0)=>{
     return [getCounterValue, increment];
 }
 
-export default Counter; 
+export default counter; 
